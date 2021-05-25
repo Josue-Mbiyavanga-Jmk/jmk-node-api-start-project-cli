@@ -1,0 +1,22 @@
+{
+  "name": "jmk-node-api-start-project",
+  "version": "1.0.0",
+  "description": "le CLI qui permet d'avoir un projet node.js pret à utiliser pour les dev de iduyatech",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./command.js",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "commander": "^7.2.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmk",
+  "license": "ISC"
+}
